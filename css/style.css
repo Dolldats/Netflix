@@ -1,0 +1,286 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/f669a8f4-de1e-49d7-bb56-c9bd1f4a9069/fbe6b535-b521-4096-929b-5bf1d6a7f700/NG-en-20221031-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    height: 95vh;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.header-container {
+    background: rgba(0, 0, 0, .4);
+    height: 95vh;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, .8), transparent, 60%, rgba(0, 0, 0, .8));
+
+}
+
+.first_child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 3em 3em 3em;
+}
+
+.header-container .first_child p {
+    font-size: 3.3em;
+    color: rgb(216, 24, 24);
+    font-weight: 600;
+    letter-spacing: -2px;
+
+}
+
+.header-container .first_child a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(216, 24, 24);
+    padding: 1em 1em;
+    border-radius: 2px;
+}
+
+.second-child {
+    text-align: center;
+
+}
+
+.header-container .second-child h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.header-container .second-child p {
+    font-size: xx-large;
+    color: white;
+}
+
+.header-container .second-child small {
+    font-size: x-large;
+    color: white;
+}
+
+.header-container .second-child input {
+    margin: 28px 0 28px 28px;
+    font-size: xxx-large;
+    padding: 0 6px 6px 6px;
+    border-radius: 5px;
+}
+
+.header-container .second-child a {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 0.43em 2em;
+    border-radius: 5px;
+    font-size: xx-large;
+    margin: 10px 10px 10px 0;
+    align-self: start;
+
+}
+
+section {
+    margin: 0;
+    padding: 0;
+    color: azure;
+}
+
+.section1 {
+    border: ridge;
+    border-color: rgb(84, 85, 85);
+    border-width: 20px 0 20px 0;
+}
+
+.section-container {
+    margin: 0 200px 0 200px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+
+}
+
+.section-container .first-selection {
+    text-align: none;
+}
+
+.section-container .first-selection h1 {
+    font-size: xxx-large;
+}
+
+.section-container .first-selection p {
+    font-size: xx-large;
+}
+
+.section2 {
+    margin: 0;
+    padding: 0;
+}
+
+.section2-container {
+    margin: 0 200px 0 200px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+
+}
+
+.section2-container .second-selection2 {
+    text-align: none;
+}
+
+.section2-container .second-selection2 h1 {
+    font-size: xxx-large;
+}
+
+.section2-container .second-selection2 p {
+    font-size: xx-large;
+}
+
+.section3 {
+    border: ridge;
+    border-color: rgb(84, 85, 85);
+    border-width: 20px 0 20px 0;
+}
+
+.section3-container {
+    margin: 0 200px 0 200px;
+    padding: 5px;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em 0.5em 0.5em 0.5em; */
+
+}
+
+.section3-container h1 {
+    font-size: xxx-large;
+}
+
+.section3-container p {
+    font-size: xx-large;
+}
+
+.section4 {
+    margin: 0;
+}
+
+.section4-container {
+    margin: 0 200px 0 200px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+
+}
+
+.section4-container .second-selection4 {
+    text-align: none;
+}
+
+.section4-container .second-selection4 h1 {
+    font-size: xxx-large;
+}
+
+.section4-container .second-selection4 p {
+    font-size: xx-large;
+}
+
+.section5 {
+    border: ridge;
+    border-color: rgb(84, 85, 85);
+    border-width: 20px 0 20px 0;
+}
+
+.section5-container {
+    text-align: center;
+    margin: 0 450px 0 450px;
+    padding: 5px;
+
+}
+
+.section5-container .section5-container_h1 {
+    font-size: xxx-large;
+}
+
+.section5-container .section5-container_p {
+    background-color: rgb(84, 85, 85);
+    color: azure;
+    font-size: xx-large;
+    text-align: left;
+    margin: 0 50px 20px 50px;
+    padding: 20px;
+}
+
+.section5-container .section5-container_p1 {
+    background-color: rgb(84, 85, 85);
+    color: azure;
+    font-size: xx-large;
+    text-align: left;
+    margin: 0 50px 20px 50px;
+    padding: 20px;
+}
+
+.section5-container .section5-container_p2 {
+    background-color: rgb(84, 85, 85);
+    color: azure;
+    font-size: xx-large;
+    text-align: left;
+    margin: 0 50px 20px 50px;
+    padding: 20px;
+}
+
+.section5-container .section5-container_p3 {
+    background-color: rgb(84, 85, 85);
+    color: azure;
+    font-size: xx-large;
+    text-align: left;
+    margin: 0 50px 20px 50px;
+    padding: 20px;
+}
+
+.section5-container .section5-container_p4 {
+    background-color: rgb(84, 85, 85);
+    color: azure;
+    font-size: xx-large;
+    text-align: left;
+    margin: 0 50px 20px 50px;
+    padding: 20px;
+}
+
+.section5-container .section5-container_p5 {
+    background-color: rgb(84, 85, 85);
+    color: azure;
+    font-size: xx-large;
+    text-align: left;
+    margin: 0 50px 20px 50px;
+    padding: 20px;
+}
+
+footer {
+    background-color: black;
+    color: azure;
+    margin: 50px;
+    padding: 50px;
+}
+
+footer .footer1 {
+    padding: 20px;
+}
+
+footer .footer2 {
+    padding: 20px;
+}
